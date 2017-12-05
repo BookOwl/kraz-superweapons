@@ -1,0 +1,12 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: endless-sky
+Upstream-Contact: Matthew S. <stanleybookowl@gmail.com>
+Source: https://github.com/BookOwl/kraz-superweapons
+
+Files: *
+Copyright: Copyright Matthew S. <stanleybookowl@gmail.com>
+License: GPL-3+
+
+Files: images/*
+Copyright: Copyright Matthew S. <stanleybookowl@gmail.com>
+License: CC-BY-SA-4.0
