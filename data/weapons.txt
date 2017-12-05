@@ -1,0 +1,71 @@
+# Copyright (c) 2017 by Matthew S.
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Melter Beam"
+	category "Guns"
+	cost 181000
+	#thumbnail "outfit/laser"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .25
+		"velocity" 300
+		"lifetime" 1.85
+		"reload" 1
+		"firing energy" 2.05
+		"firing heat" 3.4
+		"shield damage" 0.5
+		"hull damage" 5.1
+		"heat damage" 355
+		"disruption damage" 0.1
+	description "After the Free Worlds War ended, Kraz Cybernetics and Deep Sky partnered to create the ultimate anti-pirate beam weapon. The extreme heat created by this weapon is absolutely devastating to a ship's hull and systems."
+
+outfit "Melter Beam Turret"
+	category "Turrets"
+	cost 610000
+	#thumbnail "outfit/laser turret"
+	"mass" 30
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/laser turret"
+		"hardpoint offset" 7.
+		sound "laser"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .25
+		"velocity" 300
+		"lifetime" 1.85
+		"reload" 1
+		"firing energy" 2.05
+		"firing heat" 3.4
+		"shield damage" 0.5
+		"hull damage" 5.1
+		"heat damage" 355
+		"disruption damage" 0.1
+		"turret turn" 4.5
+	description "Mounting a Melter Beam to a turret makes it even better at destroying pirate fighters and interceptors."
+
+outfitter "Kraz Advanced"
+    "Melter Beam"
+    "Melter Beam Turret"
+
+outfitter "Deep Sky Advanced"
+    "Melter Beam"
+    "Melter Beam Turret"
